@@ -11,7 +11,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import { SignupPageComponent } from './signup-page/signup-page/signup-page.component';
+import { SignupPageComponent } from './components/signup-page/signup-page.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { SignupPageComponent } from './signup-page/signup-page/signup-page.compo
     HeaderComponent,
     LandingPageComponent,
     LoginPageComponent,
-    SignupPageComponent
+    SignupPageComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,7 @@ import { SignupPageComponent } from './signup-page/signup-page/signup-page.compo
     ReactiveFormsModule,
     MatInputModule,
     MatFormFieldModule,
-
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

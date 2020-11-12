@@ -14,9 +14,10 @@
         Please enter a valid email address
       </mat-error>
     </mat-form-field >
-    <mat-form-field appearance="fill" class="form-field">
+    <mat-form-field appearance="fill" class="form-field" >
       <mat-label>Enter your password</mat-label>
-      <input type="password"  matInput formControlName="password" required >
+      <input type="password"  matInput formControlName="password" required  [type]= "hide ? 'password'
+          : 'text'">
       <mat-error *ngIf="loginForm.get('password').hasError">Enter a valid password</mat-error>
     </mat-form-field>
   </form>

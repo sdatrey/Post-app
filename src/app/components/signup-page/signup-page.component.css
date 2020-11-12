@@ -1,0 +1,28 @@
+.container{
+  margin-top: 20px;
+  padding: 1%;
+}
+h1{
+  padding: 4px;
+  color: #17a2b8;
+}
+.form-field{
+  width: 100%;
+  padding: 1%;
+}
+h3{
+  margin-left: 5px;
+}
+.heading{
+  display: flex;
+}
+.icon{
+  padding: 2px;
+  height: 35px;
+}
+.from{
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  padding: 5%;
+}
