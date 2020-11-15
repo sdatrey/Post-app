@@ -5,7 +5,7 @@
     <h3>LogIn into your account</h3>
   </div>
 
-  <form [formGroup] = "loginForm" class="form">
+  <form [formGroup] = "loginForm" class="form" (ngSubmit)="submit()">
     <mat-form-field class="form-field" appearance="fill">
       <mat-label>Email</mat-label>
       <input type="email" matInput formControlName="email"

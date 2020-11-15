@@ -13,6 +13,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { SignupPageComponent } from './components/signup-page/signup-page.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {AppRoutingModule} from './app-routing.module';
 
 
 
@@ -25,18 +26,19 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     SignupPageComponent,
 
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatToolbarModule,
-    MatIconModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatInputModule,
-    MatFormFieldModule,
-    MatSnackBarModule
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatButtonModule,
+        MatToolbarModule,
+        MatIconModule,
+        FormsModule,
+        ReactiveFormsModule,
+        MatInputModule,
+        MatFormFieldModule,
+        MatSnackBarModule,
+        AppRoutingModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

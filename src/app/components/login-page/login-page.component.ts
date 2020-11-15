@@ -17,5 +17,11 @@ export class LoginPageComponent implements OnInit {
       password : new FormControl('', [Validators.required])
     });
   }
+  // tslint:disable-next-line:typedef
+  submit(){
+    if (this.loginForm.value.valid){
+      return console.log(this.loginForm);
+    }
+  }
 
 }
