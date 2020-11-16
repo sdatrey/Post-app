@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {MustMatch} from '../../Validators/validator';
 
 @Component({
   selector: 'app-signup-page',

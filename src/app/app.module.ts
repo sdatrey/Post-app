@@ -14,7 +14,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { SignupPageComponent } from './components/signup-page/signup-page.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {AppRoutingModule} from './app-routing.module';
-
+import {RouterModule} from '@angular/router';
+import { DevlopersComponent } from './components/devlopers/devlopers.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import {AppRoutingModule} from './app-routing.module';
     LandingPageComponent,
     LoginPageComponent,
     SignupPageComponent,
+    DevlopersComponent,
 
   ],
     imports: [
@@ -37,7 +39,8 @@ import {AppRoutingModule} from './app-routing.module';
         MatInputModule,
         MatFormFieldModule,
         MatSnackBarModule,
-        AppRoutingModule
+        AppRoutingModule,
+         RouterModule
     ],
   providers: [],
   bootstrap: [AppComponent]
